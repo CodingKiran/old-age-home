@@ -1,0 +1,70 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-img {
+  max-width: 960px;
+  max-height: 360px;
+  background-size: cover;
+}
+
+.main-carousel {
+  background-color: azure;
+  padding-bottom: 50px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.nxt-btn,
+.pre-btn {
+  filter: invert(100%);
+}
+
+.itlu {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.itlu p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.itlu h2 {
+  font-weight: bold;
+}
+
+.dontaion-details {
+  text-align: center;
+  margin-top: 2rem;
+  clear: both;
+}
+.dontaion-details p {
+  font-weight: bold;
+}
+
+.donation-wrapper {
+  margin-top: 10px;
+  border-style: solid;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 360px;
+}
+
+@media (max-width: 576px) {
+  .header-img {
+    max-height: 300px;
+  }
+}

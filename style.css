@@ -10,6 +10,7 @@ body {
 }
 
 .header-img {
+  width: auto;
   max-width: 960px;
   max-height: 360px;
   background-size: cover;
@@ -63,8 +64,9 @@ body {
   max-width: 360px;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 360px) and (max-width: 480px) {
   .header-img {
     max-height: 300px;
+    object-fit: contain;
   }
 }
